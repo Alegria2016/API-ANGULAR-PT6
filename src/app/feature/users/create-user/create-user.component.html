@@ -1,0 +1,42 @@
+<app-nav-bar></app-nav-bar>
+
+<div class="container">
+  <h2>Create User</h2>
+  
+  <form [formGroup]="userForm" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input 
+        id="name" 
+        type="text" 
+        formControlName="name" 
+        class="form-control"
+        [class.is-invalid]="userForm.get('name')?.invalid && userForm.get('name')?.touched">
+      
+      <div *ngIf="userForm.get('name')?.invalid && userForm.get('name')?.touched" class="error-message">
+        <span *ngIf="userForm.get('name')?.errors?.['required']">Name is required</span>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="job">Job</label>
+      <input 
+        id="job" 
+        type="text" 
+        formControlName="job" 
+        class="form-control"
+        [class.is-invalid]="userForm.get('job')?.invalid && userForm.get('job')?.touched">
+      
+      <div *ngIf="userForm.get('job')?.invalid && userForm.get('job')?.touched" class="error-message">
+        <span *ngIf="userForm.get('job')?.errors?.['required']">Job is required</span>
+      </div>
+    </div>
+
+    <button 
+      type="submit" 
+      class="btn btn-primary" 
+      [disabled]="userForm.invalid || isLoading">
+      {{ isLoading ? 'Creating...' : 'Create User' }}
+    </button>
+  </form>
+</div>

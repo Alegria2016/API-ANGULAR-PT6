@@ -1,0 +1,18 @@
+<nav class="navbar">
+  <div class="navbar-brand">
+    <a routerLink="/users">User Management</a>
+  </div>
+  
+  <div class="navbar-menu">
+    <div class="navbar-start">
+      <a class="navbar-item" routerLink="/users/list">List Users</a>
+      <a class="navbar-item" routerLink="/users/create">Create User</a>
+    </div>
+    
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <button class="button is-light" (click)="logout()">Logout</button>
+      </div>
+    </div>
+  </div>
+</nav>

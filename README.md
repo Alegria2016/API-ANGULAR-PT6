@@ -111,4 +111,4 @@ Ejecuta `ng serve` para un servidor de desarrollo. Navega a `http://localhost:42
     -   `POST /api/users`: Crea un nuevo usuario.
     -   `DELETE /api/users/:id`: Elimina un usuario.
 
-Asegúrate de reemplazar `<url-del-repositorio>` y `<directorio-del-proyecto>` con la URL y el nombre del directorio reales.
+Asegúrate de reemplazar `https://github.com/Alegria2016/API-ANGULAR-PT6` y `API-ANGULAR-PT6` con la URL y el nombre del directorio reales.

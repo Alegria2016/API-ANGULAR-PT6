@@ -35,13 +35,13 @@ Antes de comenzar, asegúrate de tener instalado lo siguiente:
 1.  Clona el repositorio:
 
     ```bash
-    git clone <url-del-repositorio>
+    git clone https://github.com/Alegria2016/API-ANGULAR-PT6
     ```
 
 2.  Navega al directorio del proyecto:
 
     ```bash
-    cd <directorio-del-proyecto>
+    cd API-ANGULAR-PT6
     ```
 
 3.  Instala las dependencias:

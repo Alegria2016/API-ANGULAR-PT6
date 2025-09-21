@@ -57,6 +57,15 @@ Antes de comenzar, asegúrate de tener instalado lo siguiente:
 ## Servidor de Desarrollo
 
 Ejecuta `ng serve` para un servidor de desarrollo. Navega a `http://localhost:4200/`. La aplicación se recargará automáticamente si cambias alguno de los archivos fuente.
+Una vez se inicia la aplicacion e ingrese a la URL: http://localhost:4200 verá la pantalla del login: 
+
+<img width="1357" height="674" alt="image" src="https://github.com/user-attachments/assets/3911cc20-1a5a-474b-aa66-28577ecf55d8" />
+
+
+Al iniciar sesion vera la pantalla de Lista de usaurios.
+
+<img width="1343" height="672" alt="image" src="https://github.com/user-attachments/assets/1edb7f5e-29e8-45d2-93f6-5059a0653f41" />
+
 
 ## Detalles de Funcionalidad
 

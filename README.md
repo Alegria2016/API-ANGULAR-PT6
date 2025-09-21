@@ -6,6 +6,8 @@ Esta aplicación Angular proporciona funcionalidades de gestión de usuarios, in
 
 ## Características
 
+Los servicios hacen uso del API: Reqres.in
+
 -   **Listado de Usuarios:** Muestra una lista de usuarios con sus avatares, nombres y direcciones de correo electrónico.
 -   **Creación de Usuarios:** Permite a los administradores crear nuevas cuentas de usuario.
 -   **Eliminación de Usuarios:** Permite a los administradores eliminar cuentas de usuario existentes.

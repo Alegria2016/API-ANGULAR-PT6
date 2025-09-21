@@ -1,5 +1,7 @@
 # Aplicación Angular de Gestión de Usuarios Punto 6 de la Prueba Angular.
 
+**Prueba Técnica – Félix Alegria Loango.** 
+
 ## Descripción General
 
 Esta aplicación Angular proporciona funcionalidades de gestión de usuarios, incluyendo listar, crear y eliminar usuarios. Cuenta con un sistema de inicio de sesión para asegurar el acceso.

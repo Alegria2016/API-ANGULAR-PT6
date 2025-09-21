@@ -74,9 +74,6 @@ Ejecuta `ng test` para ejecutar las pruebas unitarias a través de [Karma](https
 
 Ejecuta `ng e2e` para ejecutar las pruebas end-to-end a través de [Protractor](http://www.protractortest.org/).
 
-## Ayuda Adicional
-
-Para obtener más ayuda sobre el Angular CLI, usa `ng help` o consulta la [Descripción General y Referencia de Comandos del Angular CLI](https://angular.io/cli).
 
 ## Detalles de Funcionalidad
 

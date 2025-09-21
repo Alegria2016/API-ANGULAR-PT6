@@ -1,6 +1,6 @@
-# Aplicación Angular de Gestión de Usuarios Punto 6 de la Prueba Angular.
+# Aplicación Angular de Gestión de Usuarios.
 
-**Prueba Técnica – Félix Alegria Loango.** 
+**Prueba Técnica Angular Punto 6 – Félix Alegria Loango.** 
 
 ## Descripción General
 
